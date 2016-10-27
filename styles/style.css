@@ -1,0 +1,103 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+    float: left;
+    padding: 5px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: grey; 
+    background-color: none;
+    text-decoration: none;
+}
+
+li img {
+	margin: 5px 0 0 0;
+}
+
+.navbar {
+	float: right;
+	margin: 0 250px 10px 10px;
+}
+
+.navbar ul {
+	position: fixed;
+	top: 10px;
+	width: 100%;
+}
+
+.navbar a {
+    padding: 8px;
+    background-color: none;
+}
+
+
+.footer ul {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer .left {
+	float: left;
+	margin: 0 20px 10px 10px;
+}
+
+.footer .right {
+	float: right;
+	margin: 0 20px 10px 10px;
+}
+
+.logo img {
+	max-height: 100px;
+	max-width: 300px;
+	position: absolute;
+	top: 200px;
+	right: 500px;
+}
+
+
+.search {
+	position: absolute;
+	top: 400px;
+	right: 450px;
+}
+
+input[type=text] {
+	width: 5%;
+	padding: 10px 250px;
+	margin: 5px;
+	float: left;
+
+}
+
+input[type=submit] {
+	text-decoration: none;
+	border: none;
+	padding: 14px 28px;
+	margin: 4px 2px;
+}
+
+input[type=submit]:hover {
+	background-color: white;
+	font-weight: bold;
+}
+
+form {
+	position: absolute;
+	right: -50px;
+	bottom: 20px;
+}
+
+.buttons {
+	position: absolute;
+	left: 100px;
+	top: 50px; 
+	width: 100%;
+}
